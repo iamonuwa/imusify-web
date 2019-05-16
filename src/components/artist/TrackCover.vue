@@ -144,6 +144,10 @@ export default {
     h3 {
       font-size: 1.4rem;
       font-weight: 400;
+      width: 18rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
 
       a {
         color: #fff;
